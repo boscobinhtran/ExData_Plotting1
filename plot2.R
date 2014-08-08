@@ -1,4 +1,4 @@
-## Get the classes of each field from the data by getting first 
+## Get the classes of each field from the data by getting first 5 rows
 first5Rows <- read.table('household_power_consumption.txt', 
                          header = TRUE, sep=';', nrows = 5 )
 classes <- sapply(first5Rows, class)
